@@ -2,4 +2,9 @@
 Git: project management for developer and DevOps Teams
 ======================================================
 
+git reset [file_name] 		-> si agregamos un archivo git add . con git reset [filename] quitamos el archivo del stagingarea.
+git reset			-> excluye todos los archivos del proyecto del proximo git commit
+git restore [file_name]		-> Si luego de hacer un commit, modificamos un archivo y queremos deshacer esos cambios, git restore, restaura el archivo al estado del ultimo commit
+git restore .			-> Restaura todos los archivos del proyecto. Una opcion antigua era git checkout -- [file_name]
 
+git stash			-> Similar a git restore . sin embargo los ultimos cambios hechos con colocados en una cache pudiendo ser restaurada luego.
