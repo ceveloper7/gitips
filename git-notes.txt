@@ -9,4 +9,3 @@ git restore .			-> Restaura todos los archivos del proyecto. Una opcion antigua 
 
 git stash			-> Similar a git restore . sin embargo los ultimos cambios hechos con colocados en una cache pudiendo ser restaurada luego.
 
-ESTO ES UN ERROR
